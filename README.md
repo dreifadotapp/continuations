@@ -1,6 +1,6 @@
 # The "Continuations" toolkit
 [![Circle CI](https://circleci.com/gh/dreifadotaoo/continuations.svg?style=shield)](https://circleci.com/gh/dreifadotapp/continuations)
-[![Licence Status](https://img.shields.io/github/license/dreifadotapp/continuations)](https://github.com/dreifadotaoo/continuations/blob/master/licence.txt)
+[![Licence Status](https://img.shields.io/github/license/dreifadotapp/continuations)](https://github.com/dreifadotapp/continuations/blob/master/licence.txt)
 
 ## What it does
 
