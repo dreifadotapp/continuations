@@ -40,7 +40,7 @@ class SimpleContinuableWorkerClient(private val worker: ContinuableWorker) : Con
 
     private fun <I : Any> roundTripInput(input: I): I {
         @Suppress("UNCHECKED_CAST")
-        return rss.deserialiseData(rss.serialiseData(input)).any() as I
+        return rss.fromPacket(rss.toPacket(input)).any() as I
     }
 
     private fun roundTripId(id: ContinuationId): ContinuationId {
@@ -50,6 +50,6 @@ class SimpleContinuableWorkerClient(private val worker: ContinuableWorker) : Con
 
     private fun <O : Any> roundTripOutput(output: O): O {
         @Suppress("UNCHECKED_CAST")
-        return rss.deserialiseData(rss.serialiseData(output)).any() as O
+        return rss.fromPacket(rss.toPacket(output)).any() as O
     }
 }

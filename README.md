@@ -47,7 +47,7 @@ _todo_
 
 As with everything in [Dreifa dot App](https://dreifa.app), this library has minimal dependencies:
 
-* Kotlin 1.4
+* Kotlin 1.5
 * Java 11
 * The object [Registry](https://github.com/dreifadotapp/registry#readme)
 * The [Commons](https://github.com/dreifadotapp/commons#readme) module
